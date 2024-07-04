@@ -1,0 +1,24 @@
+{
+  "name": "com.yandex.varioqub",
+  "version": "0.1.0",
+  "displayName": "Varioqub",
+  "description": "A Unity plugin for Varioqub. Varioqub is an AB tool that works for Android and iOS.",
+  "changelogUrl": "https://yandex.ru/support2/varioqub-app/ru/sdk/platforms",
+  "documentationUrl": "https://yandex.ru/support2/varioqub-app/ru/sdk/platforms",
+  "license": "See LICENSE.md file",
+  "licensesUrl": "LICENSE.md",
+  "readme": "README.md",
+  "unity": "2018.3",
+  "author": {
+    "name": "Varioqub",
+    "url": "https://varioqub.ru/"
+  },
+  "keywords": [
+    "varioqub",
+    "android",
+    "ios"
+  ],
+  "dependencies": {
+      "com.google.external-dependency-manager": "1.2.177"
+  }
+}
