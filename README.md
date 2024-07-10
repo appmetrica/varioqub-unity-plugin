@@ -4,8 +4,8 @@ A Unity plugin for Varioqub. Varioqub is an AB tool that works for Android and i
 
 The plugin is available for Android and iOS and includes native Varioqub SDKs:
 
-- Varioqub SDK for Android [0.6.0](https://yandex.ru/support2/varioqub-app/ru/sdk/changelog).
-- Varioqub SDK for iOS [0.6.1](https://yandex.ru/support2/varioqub-app/ru/sdk/changelog).
+- Varioqub SDK for Android [0.7.0](https://yandex.ru/support2/varioqub-app/en/sdk/changelog).
+- Varioqub SDK for iOS [0.6.1](https://yandex.ru/support2/varioqub-app/en/sdk/changelog).
 
 ## Documentation
 
