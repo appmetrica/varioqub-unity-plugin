@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <dependencies>
     <androidPackages>
-        <androidPackage spec="com.yandex.varioqub:config:0.6.0" />
-        <androidPackage spec="com.yandex.varioqub:appmetrica-adapter:0.6.0" />
+        <androidPackage spec="com.yandex.varioqub:config:0.7.0" />
+        <androidPackage spec="com.yandex.varioqub:appmetrica-adapter:0.7.0" />
         <androidPackage spec="androidx.annotation:annotation:1.7.1"/>
     </androidPackages>
     <iosPods>
