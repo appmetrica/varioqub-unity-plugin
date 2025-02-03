@@ -35,14 +35,20 @@ namespace Com.Yandex.Varioqub.Native.Ios.Proxy {
         }
 
         private static OnFetchCompleteListener.Error GetErrorByFetchErrorCode(int fetchErrorCode) {
-            return fetchErrorCode switch {
-                1 => OnFetchCompleteListener.Error.EmptyResult,
-                2 => OnFetchCompleteListener.Error.IdentifiersNull,
-                3 => OnFetchCompleteListener.Error.InternalError,
-                4 => OnFetchCompleteListener.Error.NetworkError,
-                5 => OnFetchCompleteListener.Error.ResponseParseError,
-                _ => OnFetchCompleteListener.Error.Unknown
-            };
+            switch (fetchErrorCode) {
+                case 1:
+                    return OnFetchCompleteListener.Error.EmptyResult;
+                case 2:
+                    return OnFetchCompleteListener.Error.IdentifiersNull;
+                case 3:
+                    return OnFetchCompleteListener.Error.InternalError;
+                case 4:
+                    return OnFetchCompleteListener.Error.NetworkError;
+                case 5:
+                    return OnFetchCompleteListener.Error.ResponseParseError;
+                default:
+                    return OnFetchCompleteListener.Error.Unknown;
+            }
         }
     }
 }
